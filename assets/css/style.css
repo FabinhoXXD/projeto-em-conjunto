@@ -2267,6 +2267,7 @@ hr{
 .slider-area{
     margin-top:-1px;
     background-image:url(../img/hero/h1_hero.jpg);
+    height:660px !important;
     background-repeat:no-repeat;
     background-position:top center;
     background-size:cover;
@@ -2280,7 +2281,8 @@ hr{
     font-size:20px;
     color:#d19f68;
     font-weight:500;
-    margin-bottom:26px;
+    margin-bottom:120px;
+    margin-right:55%;
     display:block;
     text-transform:uppercase;
     letter-spacing:0.08em
@@ -2292,7 +2294,7 @@ hr{
     margin-bottom:14px;
     color:#fff;
     line-height:1.4;
-    text-transform:uppercase
+    text-transform:uppercase,
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     .slider-area .hero__caption h1{
@@ -2418,7 +2420,9 @@ hr{
     bottom:0px;
     right:0px;
     z-index:2;
-    width:35%
+    width:15%;
+    height:5%;
+    margin-bottom:200px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     .slider-area .thumb-content-box{
